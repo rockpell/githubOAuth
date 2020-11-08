@@ -34,7 +34,7 @@ jobs:
         script: |
           export NVM_DIR=~/.nvm
           source ~/.nvm/nvm.sh
-          cd githubOAuth
+          cd githubOAuth/back
           ls -la
           git pull
           npm install
