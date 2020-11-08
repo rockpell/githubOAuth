@@ -38,5 +38,5 @@ jobs:
           ls -la
           git pull
           npm install
-          pm2 reload 
+          pm2 reload githubOAuth
         
