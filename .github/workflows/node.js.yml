@@ -33,6 +33,7 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           cd githubOAuth
+          ls -la
           git pull
           npm install
           pm2 reload 
